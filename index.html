@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="scripts/main.js"></script>
+    <meta name = "viewport" content = "width = device-width">
+  </head>
+  <body>
+    <div class="wrapper">
+    <div class="header"> Bill Splitter </div>
+    <form class="insert">
+      <label id="totalL"><i class="fas fa-coins"></i>How much?</label>
+      <input type="number" id="total" placeholder="add the total">
+      <label id="totalL"><i class="fas fa-users"></i>How many?</label>
+      <input type="number" id="people" placeholder="add the number of people">
+      <label id="tip"><i class="fas fa-heart"></i>Feeling generous?
+        <button id="addTip">Add a tip</button>
+      </label>
+      <div id="tipButtons">
+        <input type="number" id="tipPercent" placeholder="add % of the total">
+        <h3>or</h3>
+        <input type="number" id="tipCustom" placeholder="add custom tip">
+       </div>
+       <div class="buttonSpace">
+         <button id="splitBtn" onclick="split()">Split</button>
+         <button id="resetBtn">Reset</button>
+        </div>
+        <div id="perPerson">$0</div>
+      </form>
+    </div>
+  </body>
+</html>
