@@ -115,35 +115,4 @@ display: none;
   text-align: center;
   color: #53BD9C;
 }
-
-footer {
-  padding-top: 2rem;
-  text-align: center;
-  font-size: 1rem;
-}
-
-
-/*  =============== . MEDIA QUERIES ============ */
-@media screen and (max-width: 992px) {
-  .insert {
-  width: 80%;
-}
-  label {
-    display: block;
-  }
-
-  #submit {
-    font-size: 1.2rem;
-  }
-}
-
-@media screen and (max-width: 600px) {
- .insert {
-  width: 90%;
-}
-.buttonSpace button {
-  width: 90%;
-  display: inline-table;
-
-}
 }
